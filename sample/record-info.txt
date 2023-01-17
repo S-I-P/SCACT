@@ -1,0 +1,73 @@
+<struct>
+stc
+<sample.cpp:5:1, line:11:1>
+2
+struct_field_1 int
+struct_field_2 char
+CXXRecord
+1
+<constructor>
+<constructor>
+<destructor>
+<destructor>
+<method>
+inc_func
+<sample.cpp:8:5, line:10:5>
+SC_None void
+0
+
+<method>
+<enum>
+enm
+<sample.cpp:13:1, col:21>
+3
+e1
+e2
+e3
+<class>
+cls
+<sample.cpp:15:1, line:32:1>
+2
+class_field_1 int
+class_field_2 float
+CXXRecord
+4
+<constructor>
+cls
+<sample.cpp:20:5, line:22:5>
+SC_None void
+0
+
+cls
+<sample.cpp:23:5, line:25:5>
+SC_None void
+1
+c int
+
+<constructor>
+<destructor>
+~cls
+<sample.cpp:29:5, line:31:5>
+SC_None void
+0
+
+<destructor>
+<method>
+func
+<sample.cpp:26:5, line:28:5>
+SC_None void
+1
+c int
+
+<method>
+<struct>
+
+<sample.cpp:34:1, line:36:1>
+1
+anon_struct_field const double
+CXXRecord
+0
+<typedef>
+cs
+class cls
+<sample.cpp:38:1, col:13>

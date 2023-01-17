@@ -1,0 +1,2922 @@
+{
+  "tokens": [
+    "hash",
+    "identifier",
+    "less",
+    "identifier",
+    "period",
+    "identifier",
+    "greater",
+    "hash",
+    "identifier",
+    "identifier",
+    "struct",
+    "identifier",
+    "struct",
+    "identifier",
+    "l_brace",
+    "int",
+    "identifier",
+    "semi",
+    "char",
+    "identifier",
+    "semi",
+    "void",
+    "identifier",
+    "l_paren",
+    "r_paren",
+    "l_brace",
+    "identifier",
+    "plusplus",
+    "semi",
+    "r_brace",
+    "r_brace",
+    "semi",
+    "enum",
+    "identifier",
+    "l_brace",
+    "identifier",
+    "comma",
+    "identifier",
+    "comma",
+    "identifier",
+    "r_brace",
+    "semi",
+    "class",
+    "identifier",
+    "l_brace",
+    "public",
+    "colon",
+    "int",
+    "identifier",
+    "semi",
+    "float",
+    "identifier",
+    "equal",
+    "numeric_constant",
+    "semi",
+    "identifier",
+    "l_paren",
+    "r_paren",
+    "l_brace",
+    "identifier",
+    "equal",
+    "numeric_constant",
+    "semi",
+    "r_brace",
+    "identifier",
+    "l_paren",
+    "int",
+    "identifier",
+    "r_paren",
+    "l_brace",
+    "identifier",
+    "equal",
+    "identifier",
+    "semi",
+    "r_brace",
+    "void",
+    "identifier",
+    "l_paren",
+    "int",
+    "identifier",
+    "r_paren",
+    "l_brace",
+    "identifier",
+    "equal",
+    "identifier",
+    "semi",
+    "r_brace",
+    "tilde",
+    "identifier",
+    "l_paren",
+    "r_paren",
+    "l_brace",
+    "identifier",
+    "equal",
+    "numeric_constant",
+    "semi",
+    "r_brace",
+    "r_brace",
+    "semi",
+    "struct",
+    "l_brace",
+    "const",
+    "double",
+    "identifier",
+    "equal",
+    "numeric_constant",
+    "semi",
+    "r_brace",
+    "identifier",
+    "semi",
+    "typedef",
+    "identifier",
+    "identifier",
+    "semi",
+    "void",
+    "identifier",
+    "l_paren",
+    "identifier",
+    "identifier",
+    "r_paren",
+    "l_brace",
+    "identifier",
+    "l_paren",
+    "string_literal",
+    "comma",
+    "identifier",
+    "period",
+    "identifier",
+    "comma",
+    "identifier",
+    "period",
+    "identifier",
+    "r_paren",
+    "semi",
+    "r_brace",
+    "void",
+    "identifier",
+    "l_paren",
+    "identifier",
+    "identifier",
+    "comma",
+    "identifier",
+    "identifier",
+    "r_paren",
+    "l_brace",
+    "identifier",
+    "l_paren",
+    "string_literal",
+    "comma",
+    "identifier",
+    "period",
+    "identifier",
+    "comma",
+    "identifier",
+    "r_paren",
+    "semi",
+    "r_brace",
+    "int",
+    "identifier",
+    "l_paren",
+    "int",
+    "identifier",
+    "comma",
+    "char",
+    "const",
+    "star",
+    "identifier",
+    "l_square",
+    "r_square",
+    "r_paren",
+    "l_brace",
+    "int",
+    "identifier",
+    "equal",
+    "numeric_constant",
+    "semi",
+    "identifier",
+    "identifier",
+    "semi",
+    "identifier",
+    "identifier",
+    "semi",
+    "identifier",
+    "period",
+    "identifier",
+    "equal",
+    "numeric_constant",
+    "semi",
+    "identifier",
+    "period",
+    "identifier",
+    "equal",
+    "char_constant",
+    "semi",
+    "enum",
+    "identifier",
+    "identifier",
+    "equal",
+    "identifier",
+    "semi",
+    "identifier",
+    "period",
+    "identifier",
+    "l_paren",
+    "identifier",
+    "r_paren",
+    "semi",
+    "identifier",
+    "l_paren",
+    "identifier",
+    "r_paren",
+    "semi",
+    "identifier",
+    "l_paren",
+    "identifier",
+    "comma",
+    "identifier",
+    "r_paren",
+    "semi",
+    "identifier",
+    "l_paren",
+    "string_literal",
+    "comma",
+    "identifier",
+    "period",
+    "identifier",
+    "r_paren",
+    "semi",
+    "return",
+    "numeric_constant",
+    "semi",
+    "r_brace"
+  ],
+  "symbols": [
+    "#",
+    "include",
+    "<",
+    "stdio",
+    ".",
+    "h",
+    ">",
+    "#",
+    "define",
+    "ss",
+    "struct",
+    "stc",
+    "struct",
+    "stc",
+    "{",
+    "int",
+    "struct_field_1",
+    ";",
+    "char",
+    "struct_field_2",
+    ";",
+    "void",
+    "inc_func",
+    "(",
+    ")",
+    "{",
+    "struct_field_1",
+    "++",
+    ";",
+    "}",
+    "}",
+    ";",
+    "enum",
+    "enm",
+    "{",
+    "e1",
+    ",",
+    "e2",
+    ",",
+    "e3",
+    "}",
+    ";",
+    "class",
+    "cls",
+    "{",
+    "public",
+    ":",
+    "int",
+    "class_field_1",
+    ";",
+    "float",
+    "class_field_2",
+    "=",
+    "1.5",
+    ";",
+    "cls",
+    "(",
+    ")",
+    "{",
+    "class_field_1",
+    "=",
+    "0",
+    ";",
+    "}",
+    "cls",
+    "(",
+    "int",
+    "c",
+    ")",
+    "{",
+    "class_field_1",
+    "=",
+    "c",
+    ";",
+    "}",
+    "void",
+    "func",
+    "(",
+    "int",
+    "c",
+    ")",
+    "{",
+    "class_field_1",
+    "=",
+    "c",
+    ";",
+    "}",
+    "~",
+    "cls",
+    "(",
+    ")",
+    "{",
+    "class_field_2",
+    "=",
+    "0",
+    ";",
+    "}",
+    "}",
+    ";",
+    "struct",
+    "{",
+    "const",
+    "double",
+    "anon_struct_field",
+    "=",
+    "1.2",
+    ";",
+    "}",
+    "anon",
+    ";",
+    "typedef",
+    "cls",
+    "cs",
+    ";",
+    "void",
+    "print",
+    "(",
+    "ss",
+    "stc_",
+    ")",
+    "{",
+    "printf",
+    "(",
+    "\"%d %c\\n\"",
+    ",",
+    "stc_",
+    ".",
+    "struct_field_1",
+    ",",
+    "stc_",
+    ".",
+    "struct_field_2",
+    ")",
+    ";",
+    "}",
+    "void",
+    "print",
+    "(",
+    "cls",
+    "cl",
+    ",",
+    "enm",
+    "en",
+    ")",
+    "{",
+    "printf",
+    "(",
+    "\"%d %d\\n\"",
+    ",",
+    "cl",
+    ".",
+    "class_field_1",
+    ",",
+    "en",
+    ")",
+    ";",
+    "}",
+    "int",
+    "main",
+    "(",
+    "int",
+    "argc",
+    ",",
+    "char",
+    "const",
+    "*",
+    "argv",
+    "[",
+    "]",
+    ")",
+    "{",
+    "int",
+    "var1",
+    "=",
+    "1",
+    ";",
+    "cs",
+    "class_var",
+    ";",
+    "ss",
+    "struct_var",
+    ";",
+    "struct_var",
+    ".",
+    "struct_field_1",
+    "=",
+    "2",
+    ";",
+    "struct_var",
+    ".",
+    "struct_field_2",
+    "=",
+    "'s'",
+    ";",
+    "enum",
+    "enm",
+    "enum_var",
+    "=",
+    "e3",
+    ";",
+    "class_var",
+    ".",
+    "func",
+    "(",
+    "var1",
+    ")",
+    ";",
+    "print",
+    "(",
+    "struct_var",
+    ")",
+    ";",
+    "print",
+    "(",
+    "class_var",
+    ",",
+    "enum_var",
+    ")",
+    ";",
+    "printf",
+    "(",
+    "\"%lf\\n\"",
+    ",",
+    "anon",
+    ".",
+    "anon_struct_field",
+    ")",
+    ";",
+    "return",
+    "0",
+    ";",
+    "}"
+  ],
+  "locations": [
+    [
+      2,
+      1,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      9
+    ],
+    [
+      2,
+      10,
+      2,
+      11
+    ],
+    [
+      2,
+      11,
+      2,
+      16
+    ],
+    [
+      2,
+      16,
+      2,
+      17
+    ],
+    [
+      2,
+      17,
+      2,
+      18
+    ],
+    [
+      2,
+      18,
+      2,
+      19
+    ],
+    [
+      3,
+      1,
+      3,
+      2
+    ],
+    [
+      3,
+      2,
+      3,
+      8
+    ],
+    [
+      3,
+      9,
+      3,
+      11
+    ],
+    [
+      3,
+      12,
+      3,
+      18
+    ],
+    [
+      3,
+      19,
+      3,
+      22
+    ],
+    [
+      5,
+      1,
+      5,
+      7
+    ],
+    [
+      5,
+      8,
+      5,
+      11
+    ],
+    [
+      5,
+      11,
+      5,
+      12
+    ],
+    [
+      6,
+      5,
+      6,
+      8
+    ],
+    [
+      6,
+      9,
+      6,
+      23
+    ],
+    [
+      6,
+      23,
+      6,
+      24
+    ],
+    [
+      7,
+      5,
+      7,
+      9
+    ],
+    [
+      7,
+      10,
+      7,
+      24
+    ],
+    [
+      7,
+      24,
+      7,
+      25
+    ],
+    [
+      8,
+      5,
+      8,
+      9
+    ],
+    [
+      8,
+      10,
+      8,
+      18
+    ],
+    [
+      8,
+      18,
+      8,
+      19
+    ],
+    [
+      8,
+      19,
+      8,
+      20
+    ],
+    [
+      8,
+      21,
+      8,
+      22
+    ],
+    [
+      9,
+      6,
+      9,
+      20
+    ],
+    [
+      9,
+      20,
+      9,
+      22
+    ],
+    [
+      9,
+      22,
+      9,
+      23
+    ],
+    [
+      10,
+      5,
+      10,
+      6
+    ],
+    [
+      11,
+      1,
+      11,
+      2
+    ],
+    [
+      11,
+      2,
+      11,
+      3
+    ],
+    [
+      13,
+      1,
+      13,
+      5
+    ],
+    [
+      13,
+      6,
+      13,
+      9
+    ],
+    [
+      13,
+      10,
+      13,
+      11
+    ],
+    [
+      13,
+      11,
+      13,
+      13
+    ],
+    [
+      13,
+      13,
+      13,
+      14
+    ],
+    [
+      13,
+      15,
+      13,
+      17
+    ],
+    [
+      13,
+      17,
+      13,
+      18
+    ],
+    [
+      13,
+      19,
+      13,
+      21
+    ],
+    [
+      13,
+      21,
+      13,
+      22
+    ],
+    [
+      13,
+      22,
+      13,
+      23
+    ],
+    [
+      15,
+      1,
+      15,
+      6
+    ],
+    [
+      15,
+      7,
+      15,
+      10
+    ],
+    [
+      16,
+      1,
+      16,
+      2
+    ],
+    [
+      17,
+      1,
+      17,
+      7
+    ],
+    [
+      17,
+      7,
+      17,
+      8
+    ],
+    [
+      18,
+      5,
+      18,
+      8
+    ],
+    [
+      18,
+      9,
+      18,
+      22
+    ],
+    [
+      18,
+      22,
+      18,
+      23
+    ],
+    [
+      19,
+      5,
+      19,
+      10
+    ],
+    [
+      19,
+      11,
+      19,
+      24
+    ],
+    [
+      19,
+      24,
+      19,
+      25
+    ],
+    [
+      19,
+      25,
+      19,
+      28
+    ],
+    [
+      19,
+      28,
+      19,
+      29
+    ],
+    [
+      20,
+      5,
+      20,
+      8
+    ],
+    [
+      20,
+      8,
+      20,
+      9
+    ],
+    [
+      20,
+      9,
+      20,
+      10
+    ],
+    [
+      20,
+      11,
+      20,
+      12
+    ],
+    [
+      21,
+      9,
+      21,
+      22
+    ],
+    [
+      21,
+      22,
+      21,
+      23
+    ],
+    [
+      21,
+      23,
+      21,
+      24
+    ],
+    [
+      21,
+      24,
+      21,
+      25
+    ],
+    [
+      22,
+      5,
+      22,
+      6
+    ],
+    [
+      23,
+      5,
+      23,
+      8
+    ],
+    [
+      23,
+      8,
+      23,
+      9
+    ],
+    [
+      23,
+      9,
+      23,
+      12
+    ],
+    [
+      23,
+      13,
+      23,
+      14
+    ],
+    [
+      23,
+      14,
+      23,
+      15
+    ],
+    [
+      23,
+      16,
+      23,
+      17
+    ],
+    [
+      24,
+      9,
+      24,
+      22
+    ],
+    [
+      24,
+      22,
+      24,
+      23
+    ],
+    [
+      24,
+      23,
+      24,
+      24
+    ],
+    [
+      24,
+      24,
+      24,
+      25
+    ],
+    [
+      25,
+      5,
+      25,
+      6
+    ],
+    [
+      26,
+      5,
+      26,
+      9
+    ],
+    [
+      26,
+      10,
+      26,
+      14
+    ],
+    [
+      26,
+      14,
+      26,
+      15
+    ],
+    [
+      26,
+      15,
+      26,
+      18
+    ],
+    [
+      26,
+      19,
+      26,
+      20
+    ],
+    [
+      26,
+      20,
+      26,
+      21
+    ],
+    [
+      26,
+      22,
+      26,
+      23
+    ],
+    [
+      27,
+      9,
+      27,
+      22
+    ],
+    [
+      27,
+      22,
+      27,
+      23
+    ],
+    [
+      27,
+      23,
+      27,
+      24
+    ],
+    [
+      27,
+      24,
+      27,
+      25
+    ],
+    [
+      28,
+      5,
+      28,
+      6
+    ],
+    [
+      29,
+      5,
+      29,
+      6
+    ],
+    [
+      29,
+      6,
+      29,
+      9
+    ],
+    [
+      29,
+      9,
+      29,
+      10
+    ],
+    [
+      29,
+      10,
+      29,
+      11
+    ],
+    [
+      29,
+      12,
+      29,
+      13
+    ],
+    [
+      30,
+      9,
+      30,
+      22
+    ],
+    [
+      30,
+      22,
+      30,
+      23
+    ],
+    [
+      30,
+      23,
+      30,
+      24
+    ],
+    [
+      30,
+      24,
+      30,
+      25
+    ],
+    [
+      31,
+      5,
+      31,
+      6
+    ],
+    [
+      32,
+      1,
+      32,
+      2
+    ],
+    [
+      32,
+      2,
+      32,
+      3
+    ],
+    [
+      34,
+      1,
+      34,
+      7
+    ],
+    [
+      34,
+      8,
+      34,
+      9
+    ],
+    [
+      35,
+      2,
+      35,
+      7
+    ],
+    [
+      35,
+      8,
+      35,
+      14
+    ],
+    [
+      35,
+      15,
+      35,
+      32
+    ],
+    [
+      35,
+      33,
+      35,
+      34
+    ],
+    [
+      35,
+      35,
+      35,
+      38
+    ],
+    [
+      35,
+      38,
+      35,
+      39
+    ],
+    [
+      36,
+      1,
+      36,
+      2
+    ],
+    [
+      36,
+      3,
+      36,
+      7
+    ],
+    [
+      36,
+      7,
+      36,
+      8
+    ],
+    [
+      38,
+      1,
+      38,
+      8
+    ],
+    [
+      38,
+      9,
+      38,
+      12
+    ],
+    [
+      38,
+      13,
+      38,
+      15
+    ],
+    [
+      38,
+      15,
+      38,
+      16
+    ],
+    [
+      40,
+      1,
+      40,
+      5
+    ],
+    [
+      40,
+      6,
+      40,
+      11
+    ],
+    [
+      40,
+      11,
+      40,
+      12
+    ],
+    [
+      40,
+      12,
+      40,
+      14
+    ],
+    [
+      40,
+      15,
+      40,
+      19
+    ],
+    [
+      40,
+      19,
+      40,
+      20
+    ],
+    [
+      40,
+      21,
+      40,
+      22
+    ],
+    [
+      41,
+      5,
+      41,
+      11
+    ],
+    [
+      41,
+      11,
+      41,
+      12
+    ],
+    [
+      41,
+      12,
+      41,
+      21
+    ],
+    [
+      41,
+      21,
+      41,
+      22
+    ],
+    [
+      41,
+      23,
+      41,
+      27
+    ],
+    [
+      41,
+      27,
+      41,
+      28
+    ],
+    [
+      41,
+      28,
+      41,
+      42
+    ],
+    [
+      41,
+      42,
+      41,
+      43
+    ],
+    [
+      41,
+      44,
+      41,
+      48
+    ],
+    [
+      41,
+      48,
+      41,
+      49
+    ],
+    [
+      41,
+      49,
+      41,
+      63
+    ],
+    [
+      41,
+      63,
+      41,
+      64
+    ],
+    [
+      41,
+      64,
+      41,
+      65
+    ],
+    [
+      42,
+      1,
+      42,
+      2
+    ],
+    [
+      44,
+      1,
+      44,
+      5
+    ],
+    [
+      44,
+      6,
+      44,
+      11
+    ],
+    [
+      44,
+      11,
+      44,
+      12
+    ],
+    [
+      44,
+      12,
+      44,
+      15
+    ],
+    [
+      44,
+      16,
+      44,
+      18
+    ],
+    [
+      44,
+      18,
+      44,
+      19
+    ],
+    [
+      44,
+      20,
+      44,
+      23
+    ],
+    [
+      44,
+      24,
+      44,
+      26
+    ],
+    [
+      44,
+      26,
+      44,
+      27
+    ],
+    [
+      44,
+      28,
+      44,
+      29
+    ],
+    [
+      45,
+      5,
+      45,
+      11
+    ],
+    [
+      45,
+      11,
+      45,
+      12
+    ],
+    [
+      45,
+      12,
+      45,
+      21
+    ],
+    [
+      45,
+      21,
+      45,
+      22
+    ],
+    [
+      45,
+      23,
+      45,
+      25
+    ],
+    [
+      45,
+      25,
+      45,
+      26
+    ],
+    [
+      45,
+      26,
+      45,
+      39
+    ],
+    [
+      45,
+      39,
+      45,
+      40
+    ],
+    [
+      45,
+      41,
+      45,
+      43
+    ],
+    [
+      45,
+      43,
+      45,
+      44
+    ],
+    [
+      45,
+      44,
+      45,
+      45
+    ],
+    [
+      46,
+      1,
+      46,
+      2
+    ],
+    [
+      48,
+      1,
+      48,
+      4
+    ],
+    [
+      48,
+      5,
+      48,
+      9
+    ],
+    [
+      48,
+      9,
+      48,
+      10
+    ],
+    [
+      48,
+      10,
+      48,
+      13
+    ],
+    [
+      48,
+      14,
+      48,
+      18
+    ],
+    [
+      48,
+      18,
+      48,
+      19
+    ],
+    [
+      48,
+      20,
+      48,
+      24
+    ],
+    [
+      48,
+      25,
+      48,
+      30
+    ],
+    [
+      48,
+      31,
+      48,
+      32
+    ],
+    [
+      48,
+      32,
+      48,
+      36
+    ],
+    [
+      48,
+      36,
+      48,
+      37
+    ],
+    [
+      48,
+      37,
+      48,
+      38
+    ],
+    [
+      48,
+      38,
+      48,
+      39
+    ],
+    [
+      49,
+      1,
+      49,
+      2
+    ],
+    [
+      50,
+      5,
+      50,
+      8
+    ],
+    [
+      50,
+      9,
+      50,
+      13
+    ],
+    [
+      50,
+      14,
+      50,
+      15
+    ],
+    [
+      50,
+      16,
+      50,
+      17
+    ],
+    [
+      50,
+      17,
+      50,
+      18
+    ],
+    [
+      51,
+      5,
+      51,
+      7
+    ],
+    [
+      51,
+      8,
+      51,
+      17
+    ],
+    [
+      51,
+      17,
+      51,
+      18
+    ],
+    [
+      52,
+      5,
+      52,
+      7
+    ],
+    [
+      52,
+      8,
+      52,
+      18
+    ],
+    [
+      52,
+      18,
+      52,
+      19
+    ],
+    [
+      53,
+      5,
+      53,
+      15
+    ],
+    [
+      53,
+      15,
+      53,
+      16
+    ],
+    [
+      53,
+      16,
+      53,
+      30
+    ],
+    [
+      53,
+      31,
+      53,
+      32
+    ],
+    [
+      53,
+      33,
+      53,
+      34
+    ],
+    [
+      53,
+      34,
+      53,
+      35
+    ],
+    [
+      54,
+      5,
+      54,
+      15
+    ],
+    [
+      54,
+      15,
+      54,
+      16
+    ],
+    [
+      54,
+      16,
+      54,
+      30
+    ],
+    [
+      54,
+      31,
+      54,
+      32
+    ],
+    [
+      54,
+      33,
+      54,
+      36
+    ],
+    [
+      54,
+      36,
+      54,
+      37
+    ],
+    [
+      55,
+      5,
+      55,
+      9
+    ],
+    [
+      55,
+      10,
+      55,
+      13
+    ],
+    [
+      55,
+      14,
+      55,
+      22
+    ],
+    [
+      55,
+      23,
+      55,
+      24
+    ],
+    [
+      55,
+      25,
+      55,
+      27
+    ],
+    [
+      55,
+      27,
+      55,
+      28
+    ],
+    [
+      56,
+      5,
+      56,
+      14
+    ],
+    [
+      56,
+      14,
+      56,
+      15
+    ],
+    [
+      56,
+      15,
+      56,
+      19
+    ],
+    [
+      56,
+      19,
+      56,
+      20
+    ],
+    [
+      56,
+      20,
+      56,
+      24
+    ],
+    [
+      56,
+      24,
+      56,
+      25
+    ],
+    [
+      56,
+      25,
+      56,
+      26
+    ],
+    [
+      57,
+      5,
+      57,
+      10
+    ],
+    [
+      57,
+      10,
+      57,
+      11
+    ],
+    [
+      57,
+      11,
+      57,
+      21
+    ],
+    [
+      57,
+      21,
+      57,
+      22
+    ],
+    [
+      57,
+      22,
+      57,
+      23
+    ],
+    [
+      58,
+      5,
+      58,
+      10
+    ],
+    [
+      58,
+      10,
+      58,
+      11
+    ],
+    [
+      58,
+      11,
+      58,
+      20
+    ],
+    [
+      58,
+      20,
+      58,
+      21
+    ],
+    [
+      58,
+      22,
+      58,
+      30
+    ],
+    [
+      58,
+      30,
+      58,
+      31
+    ],
+    [
+      58,
+      31,
+      58,
+      32
+    ],
+    [
+      59,
+      5,
+      59,
+      11
+    ],
+    [
+      59,
+      11,
+      59,
+      12
+    ],
+    [
+      59,
+      12,
+      59,
+      19
+    ],
+    [
+      59,
+      19,
+      59,
+      20
+    ],
+    [
+      59,
+      21,
+      59,
+      25
+    ],
+    [
+      59,
+      25,
+      59,
+      26
+    ],
+    [
+      59,
+      26,
+      59,
+      43
+    ],
+    [
+      59,
+      43,
+      59,
+      44
+    ],
+    [
+      59,
+      44,
+      59,
+      45
+    ],
+    [
+      60,
+      5,
+      60,
+      11
+    ],
+    [
+      60,
+      12,
+      60,
+      13
+    ],
+    [
+      60,
+      13,
+      60,
+      14
+    ],
+    [
+      61,
+      1,
+      61,
+      2
+    ]
+  ],
+  "unk": [],
+  "ast": {
+    "kind": "TranslationUnitDecl",
+    "child": {
+      "11567": {
+        "kind": "CXXRecordDecl",
+        "child": {
+          "11621": {
+            "kind": "FieldDecl",
+            "child": {}
+          },
+          "11632": {
+            "kind": "FieldDecl",
+            "child": {}
+          },
+          "11657": {
+            "kind": "CXXMethodDecl",
+            "child": {
+              "11690": {
+                "kind": "CompoundStmt",
+                "child": {
+                  "11687": {
+                    "kind": "UnaryOperator",
+                    "child": {
+                      "11681": {
+                        "kind": "MemberExpr",
+                        "child": {
+                          "11679": {
+                            "kind": "CXXThisExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "11693": {
+        "kind": "EnumDecl",
+        "child": {
+          "11716": {
+            "kind": "EnumConstantDecl",
+            "child": {}
+          },
+          "11725": {
+            "kind": "EnumConstantDecl",
+            "child": {}
+          },
+          "11734": {
+            "kind": "EnumConstantDecl",
+            "child": {}
+          }
+        }
+      },
+      "11743": {
+        "kind": "CXXRecordDecl",
+        "child": {
+          "11806": {
+            "kind": "AccessSpecDecl",
+            "child": {}
+          },
+          "11814": {
+            "kind": "FieldDecl",
+            "child": {}
+          },
+          "11826": {
+            "kind": "FieldDecl",
+            "child": {
+              "11996": {
+                "kind": "ImplicitCastExpr",
+                "child": {
+                  "11992": {
+                    "kind": "FloatingLiteral",
+                    "child": {}
+                  }
+                }
+              }
+            }
+          },
+          "11848": {
+            "kind": "CXXConstructorDecl",
+            "child": {
+              "12024": {
+                "kind": "CompoundStmt",
+                "child": {
+                  "12020": {
+                    "kind": "BinaryOperator",
+                    "child": {
+                      "12010": {
+                        "kind": "MemberExpr",
+                        "child": {
+                          "12008": {
+                            "kind": "CXXThisExpr",
+                            "child": {}
+                          }
+                        }
+                      },
+                      "12016": {
+                        "kind": "IntegerLiteral",
+                        "child": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "11895": {
+            "kind": "CXXConstructorDecl",
+            "child": {
+              "11871": {
+                "kind": "ParmVarDecl",
+                "child": {}
+              },
+              "12055": {
+                "kind": "CompoundStmt",
+                "child": {
+                  "12051": {
+                    "kind": "BinaryOperator",
+                    "child": {
+                      "12038": {
+                        "kind": "MemberExpr",
+                        "child": {
+                          "12036": {
+                            "kind": "CXXThisExpr",
+                            "child": {}
+                          }
+                        }
+                      },
+                      "12048": {
+                        "kind": "ImplicitCastExpr",
+                        "child": {
+                          "12044": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "11936": {
+            "kind": "CXXMethodDecl",
+            "child": {
+              "11919": {
+                "kind": "ParmVarDecl",
+                "child": {}
+              },
+              "12077": {
+                "kind": "CompoundStmt",
+                "child": {
+                  "12073": {
+                    "kind": "BinaryOperator",
+                    "child": {
+                      "12060": {
+                        "kind": "MemberExpr",
+                        "child": {
+                          "12058": {
+                            "kind": "CXXThisExpr",
+                            "child": {}
+                          }
+                        }
+                      },
+                      "12070": {
+                        "kind": "ImplicitCastExpr",
+                        "child": {
+                          "12066": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "11965": {
+            "kind": "CXXDestructorDecl",
+            "child": {
+              "12104": {
+                "kind": "CompoundStmt",
+                "child": {
+                  "12100": {
+                    "kind": "BinaryOperator",
+                    "child": {
+                      "12087": {
+                        "kind": "MemberExpr",
+                        "child": {
+                          "12085": {
+                            "kind": "CXXThisExpr",
+                            "child": {}
+                          }
+                        }
+                      },
+                      "12097": {
+                        "kind": "ImplicitCastExpr",
+                        "child": {
+                          "12093": {
+                            "kind": "IntegerLiteral",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "12107": {
+        "kind": "CXXRecordDecl",
+        "child": {
+          "12144": {
+            "kind": "FieldDecl",
+            "child": {
+              "12161": {
+                "kind": "FloatingLiteral",
+                "child": {}
+              }
+            }
+          }
+        }
+      },
+      "12177": {
+        "kind": "VarDecl",
+        "child": {
+          "12345": {
+            "kind": "CXXConstructExpr",
+            "child": {}
+          }
+        }
+      },
+      "12389": {
+        "kind": "TypedefDecl",
+        "child": {}
+      },
+      "12439": {
+        "kind": "FunctionDecl",
+        "child": {
+          "12410": {
+            "kind": "ParmVarDecl",
+            "child": {}
+          },
+          "12569": {
+            "kind": "CompoundStmt",
+            "child": {
+              "12526": {
+                "kind": "CallExpr",
+                "child": {
+                  "12523": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "12507": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "12533": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "12483": {
+                        "kind": "StringLiteral",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "12536": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "12491": {
+                        "kind": "MemberExpr",
+                        "child": {
+                          "12487": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "12542": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "12539": {
+                        "kind": "ImplicitCastExpr",
+                        "child": {
+                          "12501": {
+                            "kind": "MemberExpr",
+                            "child": {
+                              "12497": {
+                                "kind": "DeclRefExpr",
+                                "child": {}
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "12613": {
+        "kind": "FunctionDecl",
+        "child": {
+          "12574": {
+            "kind": "ParmVarDecl",
+            "child": {}
+          },
+          "12588": {
+            "kind": "ParmVarDecl",
+            "child": {}
+          },
+          "12687": {
+            "kind": "CompoundStmt",
+            "child": {
+              "12668": {
+                "kind": "CallExpr",
+                "child": {
+                  "12665": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "12661": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "12675": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "12643": {
+                        "kind": "StringLiteral",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "12678": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "12651": {
+                        "kind": "MemberExpr",
+                        "child": {
+                          "12647": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "12684": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "12681": {
+                        "kind": "ImplicitCastExpr",
+                        "child": {
+                          "12657": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "12762": {
+        "kind": "FunctionDecl",
+        "child": {
+          "12693": {
+            "kind": "ParmVarDecl",
+            "child": {}
+          },
+          "12728": {
+            "kind": "ParmVarDecl",
+            "child": {}
+          },
+          "13422": {
+            "kind": "CompoundStmt",
+            "child": {
+              "12804": {
+                "kind": "DeclStmt",
+                "child": {
+                  "12786": {
+                    "kind": "VarDecl",
+                    "child": {
+                      "12800": {
+                        "kind": "IntegerLiteral",
+                        "child": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "12883": {
+                "kind": "DeclStmt",
+                "child": {
+                  "12814": {
+                    "kind": "VarDecl",
+                    "child": {
+                      "12878": {
+                        "kind": "CXXConstructExpr",
+                        "child": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "13043": {
+                "kind": "DeclStmt",
+                "child": {
+                  "12890": {
+                    "kind": "VarDecl",
+                    "child": {
+                      "13038": {
+                        "kind": "CXXConstructExpr",
+                        "child": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "13060": {
+                "kind": "BinaryOperator",
+                "child": {
+                  "13050": {
+                    "kind": "MemberExpr",
+                    "child": {
+                      "13046": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "13056": {
+                    "kind": "IntegerLiteral",
+                    "child": {}
+                  }
+                }
+              },
+              "13077": {
+                "kind": "BinaryOperator",
+                "child": {
+                  "13068": {
+                    "kind": "MemberExpr",
+                    "child": {
+                      "13064": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "13074": {
+                    "kind": "CharacterLiteral",
+                    "child": {}
+                  }
+                }
+              },
+              "13108": {
+                "kind": "DeclStmt",
+                "child": {
+                  "13092": {
+                    "kind": "VarDecl",
+                    "child": {
+                      "13104": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "13125": {
+                "kind": "CXXMemberCallExpr",
+                "child": {
+                  "13115": {
+                    "kind": "MemberExpr",
+                    "child": {
+                      "13111": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "13130": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "13121": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "13166": {
+                "kind": "CallExpr",
+                "child": {
+                  "13163": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "13147": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "13220": {
+                    "kind": "CXXConstructExpr",
+                    "child": {
+                      "13171": {
+                        "kind": "ImplicitCastExpr",
+                        "child": {
+                          "13143": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "13356": {
+                "kind": "ExprWithCleanups",
+                "child": {
+                  "13284": {
+                    "kind": "CallExpr",
+                    "child": {
+                      "13281": {
+                        "kind": "ImplicitCastExpr",
+                        "child": {
+                          "13272": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      },
+                      "13349": {
+                        "kind": "CXXBindTemporaryExpr",
+                        "child": {
+                          "13342": {
+                            "kind": "CXXConstructExpr",
+                            "child": {
+                              "13290": {
+                                "kind": "ImplicitCastExpr",
+                                "child": {
+                                  "13264": {
+                                    "kind": "DeclRefExpr",
+                                    "child": {}
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "13353": {
+                        "kind": "ImplicitCastExpr",
+                        "child": {
+                          "13268": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "13404": {
+                "kind": "CallExpr",
+                "child": {
+                  "13401": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "13397": {
+                        "kind": "DeclRefExpr",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "13410": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "13383": {
+                        "kind": "StringLiteral",
+                        "child": {}
+                      }
+                    }
+                  },
+                  "13413": {
+                    "kind": "ImplicitCastExpr",
+                    "child": {
+                      "13391": {
+                        "kind": "MemberExpr",
+                        "child": {
+                          "13387": {
+                            "kind": "DeclRefExpr",
+                            "child": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "13420": {
+                "kind": "ReturnStmt",
+                "child": {
+                  "13416": {
+                    "kind": "IntegerLiteral",
+                    "child": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "variables": [
+    [
+      "anon",
+      [
+        [
+          34,
+          1,
+          36,
+          3
+        ],
+        []
+      ],
+      [
+        "struct"
+      ],
+      [
+        "(anonymous struct at sample.cpp:34:1)"
+      ]
+    ],
+    [
+      "var1",
+      [
+        [
+          50,
+          5,
+          50,
+          16
+        ],
+        []
+      ],
+      [
+        "int"
+      ],
+      []
+    ],
+    [
+      "class_var",
+      [
+        [
+          51,
+          5,
+          51,
+          8
+        ],
+        []
+      ],
+      [
+        "cs"
+      ],
+      []
+    ],
+    [
+      "struct_var",
+      [
+        [
+          52,
+          5,
+          52,
+          8
+        ],
+        [
+          [
+            3,
+            12
+          ]
+        ]
+      ],
+      [
+        "struct",
+        "stc"
+      ],
+      []
+    ],
+    [
+      "enum_var",
+      [
+        [
+          55,
+          5,
+          55,
+          25
+        ],
+        []
+      ],
+      [
+        "enum",
+        "enm"
+      ],
+      []
+    ]
+  ],
+  "functions": {
+    "print": [
+      {
+        "location": [
+          [
+            40,
+            1,
+            42,
+            1
+          ],
+          []
+        ],
+        "return": [
+          "void"
+        ],
+        "num": 1,
+        "params": {
+          "stc_": [
+            [
+              "struct",
+              "stc"
+            ]
+          ]
+        },
+        "variables": []
+      },
+      {
+        "location": [
+          [
+            44,
+            1,
+            46,
+            1
+          ],
+          []
+        ],
+        "return": [
+          "void"
+        ],
+        "num": 2,
+        "params": {
+          "cl": [
+            [
+              "class",
+              "cls"
+            ]
+          ],
+          "en": [
+            [
+              "enum",
+              "enm"
+            ]
+          ]
+        },
+        "variables": []
+      }
+    ],
+    "main": [
+      {
+        "location": [
+          [
+            48,
+            1,
+            61,
+            1
+          ],
+          []
+        ],
+        "return": [
+          "int"
+        ],
+        "num": 2,
+        "params": {
+          "argc": [
+            [
+              "int"
+            ]
+          ],
+          "argv": [
+            [
+              "const",
+              "char",
+              "*[]"
+            ]
+          ]
+        },
+        "variables": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "enums": {
+    "enm": [
+      {
+        "location": [
+          [
+            13,
+            1,
+            13,
+            21
+          ],
+          []
+        ],
+        "fields": [
+          "e1",
+          "e2",
+          "e3"
+        ]
+      }
+    ]
+  },
+  "typedefs": {
+    "cs": [
+      {
+        "type": [
+          "class",
+          "cls"
+        ],
+        "location": [
+          [
+            38,
+            1,
+            38,
+            13
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  "records": {
+    "stc": [
+      {
+        "type": "struct",
+        "location": [
+          [
+            5,
+            1,
+            11,
+            1
+          ],
+          []
+        ],
+        "fields": {
+          "struct_field_1": [
+            [
+              "int"
+            ]
+          ],
+          "struct_field_2": [
+            [
+              "char"
+            ]
+          ]
+        },
+        "methods": {
+          "constructor": {},
+          "destructor": {},
+          "method": {
+            "inc_func": [
+              {
+                "location": [
+                  [
+                    8,
+                    5,
+                    10,
+                    5
+                  ],
+                  []
+                ],
+                "return": [
+                  "void"
+                ],
+                "num": 0,
+                "params": {}
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "cls": [
+      {
+        "type": "class",
+        "location": [
+          [
+            15,
+            1,
+            32,
+            1
+          ],
+          []
+        ],
+        "fields": {
+          "class_field_1": [
+            [
+              "int"
+            ]
+          ],
+          "class_field_2": [
+            [
+              "float"
+            ]
+          ]
+        },
+        "methods": {
+          "constructor": {
+            "cls": [
+              {
+                "location": [
+                  [
+                    20,
+                    5,
+                    22,
+                    5
+                  ],
+                  []
+                ],
+                "return": [
+                  "void"
+                ],
+                "num": 0,
+                "params": {}
+              },
+              {
+                "location": [
+                  [
+                    23,
+                    5,
+                    25,
+                    5
+                  ],
+                  []
+                ],
+                "return": [
+                  "void"
+                ],
+                "num": 1,
+                "params": {
+                  "c": [
+                    [
+                      "int"
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
+          "destructor": {
+            "~cls": [
+              {
+                "location": [
+                  [
+                    29,
+                    5,
+                    31,
+                    5
+                  ],
+                  []
+                ],
+                "return": [
+                  "void"
+                ],
+                "num": 0,
+                "params": {}
+              }
+            ]
+          },
+          "method": {
+            "func": [
+              {
+                "location": [
+                  [
+                    26,
+                    5,
+                    28,
+                    5
+                  ],
+                  []
+                ],
+                "return": [
+                  "void"
+                ],
+                "num": 1,
+                "params": {
+                  "c": [
+                    [
+                      "int"
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "": [
+      {
+        "type": "struct",
+        "location": [
+          [
+            34,
+            1,
+            36,
+            1
+          ],
+          []
+        ],
+        "fields": {
+          "anon_struct_field": [
+            [
+              "const",
+              "double"
+            ]
+          ]
+        },
+        "methods": {}
+      }
+    ]
+  }
+}

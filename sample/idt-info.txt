@@ -1,0 +1,40 @@
+<variable>
+anon
+<sample.cpp:34:1, line:36:3>
+SC_None struct (anonymous struct at sample.cpp:34:1)
+<function>
+print
+<sample.cpp:40:1, line:42:1>
+SC_None void
+1
+stc_ struct stc
+<function>
+print
+<sample.cpp:44:1, line:46:1>
+SC_None void
+2
+cl class cls
+en enum enm
+<function>
+main
+<sample.cpp:48:1, line:61:1>
+SC_None int
+2
+argc int
+argv const char *[]
+<variable>
+var1
+<sample.cpp:50:5, col:16>
+SC_None int
+<variable>
+class_var
+<sample.cpp:51:5, col:8>
+SC_None cs
+<variable>
+struct_var
+<sample.cpp:52:5 <Spelling=line:3:12>, line:52:8>
+SC_None struct stc
+<variable>
+enum_var
+<sample.cpp:55:5, col:25>
+SC_None enum enm
